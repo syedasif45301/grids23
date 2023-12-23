@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .container{
+            /* background-color: aliceblue; */
+            width: 95vw;
+            height:90vh;
+            gap:15px;
+          
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            grid-template-areas: "header header"
+                                    "sidebar main"
+                                    "sidebar footer";
+        }
+        .item{
+            background-color: antiquewhite;
+            /* border:2px solid white; */
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        .header{
+            background-color: bisque;
+            grid-area: header;
+        }
+        .sidebar{
+            background-color:lightpink;
+            grid-area: sidebar;
+        }
+        .main{
+            background-color: lightgreen;
+            grid-area: main;
+        }
+        .footer{
+            background-color: lightskyblue;
+            grid-area: footer ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">header</div>
+        <div class="item sidebar">sidebar</div>
+        <div class="item main">main</div>
+        <div class="item footer">footer</div>
+    </div>
+</body>
+</html>
