@@ -75,52 +75,52 @@
 
 
 //5.
-let students=[
-    {
-                name:'ramu',
-                age:22,
+// let students=[
+//     {
+//                 name:'ramu',
+//                 age:22,
         
-    },
-    {
-                name:'khaju',
-               age:18
+//     },
+//     {
+//                 name:'khaju',
+//                age:18
         
-    },
-    {
-                name:'bheem',
-                age:20
+//     },
+//     {
+//                 name:'bheem',
+//                 age:20
         
-    },
-     {
-                name:'suresh',
-               age:24
+//     },
+//      {
+//                 name:'suresh',
+//                age:24
         
-    },
-    {
-                name:'krishnu',
-               age:25
+//     },
+//     {
+//                 name:'krishnu',
+//                age:25
         
-     },
-     {
-                name:'dholak',
-                age:20
+//      },
+//      {
+//                 name:'dholak',
+//                 age:20
         
-     },
-    {
-                name:'kittu',
-                age:15
+//      },
+//     {
+//                 name:'kittu',
+//                 age:15
         
-    },
-]
-console.log(students);
+//     },
+// ]
+// console.log(students);
 
-let cur=2023;
-let newStu=students.map((val)=>{
+// let cur=2023;
+// let newStu=students.map((val)=>{
 
-    let yoB=cur-val.age
-    return {name:val.name,yoB};
-})
-console.log(newStu);
+//     let yoB=cur-val.age
+//     return {name:val.name,yoB};
+// })
+// console.log(newStu);
 //----------------------------------------------------------------------------------
 
 
